@@ -16,7 +16,7 @@ const Dashboard = ({ handleLogout }) => {
   const fetchGames = async () => {
     const token = localStorage.getItem("token");
     try {
-      const response = await fetch("https://apitolol.vercel.app/api/games", {
+      const response = await fetch("https://apitolol2.vercel.app/api/games", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
