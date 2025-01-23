@@ -13,6 +13,18 @@ const Navbar = ({ handleLogout }) => {
           <Link to="/users" className="mr-4 hover:underline">
             User List
           </Link>
+          <Link to="/developers" className="mr-4 hover:underline">
+            Dev List
+          </Link>
+          <Link to="/ratings" className="mr-4 hover:underline">
+            Rate List
+          </Link>
+          <Link to="/publishers" className="mr-4 hover:underline">
+            Pub List
+          </Link>
+          <Link to="/genres" className="mr-4 hover:underline">
+            Genre List
+          </Link>
           <button
             className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
             onClick={handleLogout} // Use the handleLogout function from props
